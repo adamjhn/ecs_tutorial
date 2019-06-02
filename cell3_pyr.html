@@ -11835,7 +11835,7 @@ div#notebook {
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
 
 
-    <span class="k">def</span> <span class="nf">replace_axon</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">L_target</span> <span class="o">=</span> <span class="mf">60.0</span><span class="p">,</span> <span class="n">nseg0</span> <span class="o">=</span> <span class="mi">5</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">replace_axon</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">L_target</span><span class="o">=</span><span class="mf">60.0</span><span class="p">,</span> <span class="n">nseg0</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
         <span class="n">nseg_total</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">nseg0</span>
         <span class="n">chunk</span> <span class="o">=</span> <span class="n">L_target</span> <span class="o">/</span> <span class="n">nseg_total</span>
         <span class="n">nSec</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">axon</span><span class="p">)</span>
